@@ -14,7 +14,7 @@ function findMatching(array, variable){
 function fuzzyMatch(array, query){
     array.length = 0;
     array.push('Bobby', 'Sammy', 'Sally', 'Annette', 'Sarah', 'bobby');
-    return array.filter(data => {return data.startsWith(query)});
+    return array.filter(data => data.startsWith(query));
 }
 
 
